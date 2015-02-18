@@ -1,0 +1,261 @@
+body{
+	margin: 0;
+	background-color: #ccc;
+}
+
+#wrapper {
+    max-width: 1250px;
+    margin: auto;
+
+}
+
+.baseblock {
+    padding: 0px 70px;
+}
+
+
+.top-menu li.active{
+    color: #434c49;
+}
+
+.in li.active{
+    text-decoration: underline;
+}
+
+header {
+
+	background:url(../images/header.png) no-repeat;
+    /*padding: 20px 0;*/
+    height: 346px;
+}
+
+
+
+nav.baseblock {
+	background-color: #5ac654;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-position: inside;
+    font: 14px 'Oswald', sans-serif;
+    padding: 10px;
+    color: #fff;
+}
+
+nav li {
+    display: inline-block;
+    /*padding: 10px 28px;*/
+    margin: 0;
+}
+
+
+header .in{
+    /*border:1px solid black;*/
+    text-align: center;
+}
+
+header .in div{
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+}
+
+.logo {
+    margin: 40px
+}
+
+header .nav-icons li{
+    width: 62px;
+    height: 78px;
+    /*border: 1px solid #000;*/
+    background: url(../images/menuicons.png) no-repeat;
+    cursor: pointer;
+}
+header .nav-icons li+li {
+    margin-left: 15px;
+}
+
+header .nav-icons li.nav-icons-1{
+    background-position: 4px 0px;
+}
+
+
+header .nav-icons li.nav-icons-2{
+    background-position: -95px 0px;
+}
+
+header .nav-icons li.nav-icons-3{
+    background-position: -194px 0px;
+}
+
+header .nav-icons li.nav-icons-4{
+    background-position: -294px 0px;
+}
+
+header .nav-icons li.nav-icons-5{
+    background-position: -391px 0px;
+}
+
+header .nav-icons li.nav-icons-6{
+    background-position: -491px 0px;
+}
+
+header .nav-icons li.nav-icons-7{
+    background-position: -584px 0px;
+}
+
+header .nav-icons li.nav-icons-8{
+    background-position: -684px 0px;
+}
+
+header .nav-icons li.nav-icons-9{
+    background-position: -781px 0px;
+}
+
+header .nav-icons li.nav-icons-10{
+    background-position: -877px 0px;
+}
+
+header .nav-icons li.nav-icons-11{
+    background-position: -972px 0px;
+}
+
+#marker {
+    position: relative;
+    top:3px;
+    left: 47px;
+}
+
+
+footer {
+    background-color: #48637f;
+    height: 150px;
+    /*text-align: center;*/
+}
+
+#footer-block {
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+/*footer div{*/
+    /*border: 1px solid red;*/
+/*}*/
+
+.footer-left-menu{
+    float: left;
+   /*width: 79%;*/
+}
+
+.footer-left-menu nav{
+    margin-top: 10px;
+}
+
+.footer-right-menu{
+    float: right;
+    /*width: 20%;*/
+}
+
+.footer-logo{
+    margin-top: 10px;
+}
+
+footer .pay li a{
+    display: block;
+    height: 47px;
+    background: url(../images/pay-services.png) no-repeat;
+    border: 0px solid #000;
+}
+
+footer .pay li.pay-link1 a{
+    width: 208px;
+
+}
+
+footer .pay li.pay-link2 a{
+    width: 134px;
+    background-position: -212px 0px;
+}
+
+footer .pay li.pay-link3 a{
+    width: 91px;
+    background-position: -354px 0px;
+}
+
+
+.big-block,.small-block{
+    text-align: center;
+}
+
+
+.big-block{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.small-block{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.color0 {
+    background-color: #fff;
+}
+
+.color1 {
+    background-color: #e9f4ff;
+}
+
+.color2 {
+    background-color:#007cc3;
+}
+
+.color3 {
+    background-color: #f4f4f4;
+}
+
+.color4 {
+    background-color: #d3dcea;
+}
+
+.color5 {
+    background-color: #1fc060;
+}
+
+
+.text_style0 {
+    font-family: CuprumFFU;
+    font-size: 30px;
+    color: #384047;
+}
+
+.text_style1 {
+    font-family: CuprumFFU;
+    font-size: 36px;
+    color: #1c6ea6;
+}
+
+.text_style1_small {
+    font-family: CuprumFFU;
+    font-size: 22px;
+    color: #1c6ea6;
+}
+
+.text_style2 {
+    font-family: "Myriad Pro Regular";
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
