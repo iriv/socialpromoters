@@ -5,6 +5,11 @@
     <title><?php echo $this->title?></title>
     <link rel="stylesheet" type="text/css" href="fonts/cuprumffu/style.css">
     <link rel="stylesheet" type="text/css" href="fonts/myriad/style.css">
+    <link rel="stylesheet" type="text/css" href="fonts/gotham-pro/style.css">
+    <link rel="stylesheet" type="text/css" href="fonts/days/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
     <!--[if lt IE 9]>
@@ -13,11 +18,12 @@
 </head>
 <body>
 <div id="wrapper">
+
     <header class="baseblock">
         <div class="in">
             <div></div>
             <div>
-                <nav>
+                <nav class="text_style_Myriad_1">
                     <ul>
                         <li class="active">Home</a></li>
                         <li><a href="">About us</a></li>
@@ -45,8 +51,10 @@
             </nav>
         </div>
         <img src="images/marker.png" alt="" id="marker"/>
+        <!--<div class="figure3"></div>
+        <div class="figure4"></div>-->
     </header>
-    <nav class="baseblock">
+    <nav class="baseblock text_style_Gotham_0">
         <ul class="top-menu">
             <li><a href="">View</a></li>
             <li class="active">Like</li>

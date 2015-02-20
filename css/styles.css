@@ -13,6 +13,9 @@ body{
     padding: 0px 70px;
 }
 
+.top-menu {
+    margin-left: 40px;
+}
 
 .top-menu li.active{
     color: #434c49;
@@ -47,8 +50,8 @@ nav ul {
 
 nav li {
     list-style-position: inside;
-    font: 14px 'Oswald', sans-serif;
-    padding: 10px;
+    /*font: 14px 'Oswald', sans-serif;*/
+    padding: 8px;
     color: #fff;
 }
 
@@ -76,7 +79,7 @@ header .in div{
 
 header .nav-icons li{
     width: 62px;
-    height: 78px;
+    height: 80px;
     /*border: 1px solid #000;*/
     background: url(../images/menuicons.png) no-repeat;
     cursor: pointer;
@@ -132,14 +135,14 @@ header .nav-icons li.nav-icons-11{
 
 #marker {
     position: relative;
-    top:3px;
-    left: 47px;
+    top:10px;
+    left: 54px;
 }
 
 
 footer {
     background-color: #48637f;
-    height: 150px;
+    overflow:hidden;
     /*text-align: center;*/
 }
 
@@ -152,18 +155,19 @@ footer {
     /*border: 1px solid red;*/
 /*}*/
 
-.footer-left-menu{
+.left-menu{
     float: left;
    /*width: 79%;*/
+    /*border: 1px solid #000;*/
 }
 
-.footer-left-menu nav{
+.left-menu nav{
     margin-top: 10px;
 }
 
-.footer-right-menu{
+.right-menu{
     float: right;
-    /*width: 20%;*/
+        /*width: 20%;*/
 }
 
 .footer-logo{
@@ -201,61 +205,12 @@ footer .pay li.pay-link3 a{
 .big-block{
     padding-top: 30px;
     padding-bottom: 30px;
+    overflow:hidden;
 }
 
 .small-block{
     padding-top: 20px;
     padding-bottom: 20px;
+    overflow:hidden;
 }
 
-
-.color0 {
-    background-color: #fff;
-}
-
-.color1 {
-    background-color: #e9f4ff;
-}
-
-.color2 {
-    background-color:#007cc3;
-}
-
-.color3 {
-    background-color: #f4f4f4;
-}
-
-.color4 {
-    background-color: #d3dcea;
-}
-
-.color5 {
-    background-color: #1fc060;
-}
-
-
-.text_style0 {
-    font-family: CuprumFFU;
-    font-size: 30px;
-    color: #384047;
-}
-
-.text_style1 {
-    font-family: CuprumFFU;
-    font-size: 36px;
-    color: #1c6ea6;
-}
-
-.text_style1_small {
-    font-family: CuprumFFU;
-    font-size: 22px;
-    color: #1c6ea6;
-}
-
-.text_style2 {
-    font-family: "Myriad Pro Regular";
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #fff;
-}

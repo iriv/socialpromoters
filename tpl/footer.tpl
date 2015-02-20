@@ -1,16 +1,16 @@
 <footer id="footer-block" class="baseblock">
-    <div align="left" class="footer-left-menu">
+    <div align="left" class="left-menu">
         <nav>
-            <ul>
-                <li>"SocialPromoters" All right reserved</li>
+            <ul class="text_style_Tahoma_0">
+                <li><span class="textcolor1">"SocialPromoters"</span> All right reserved</li>
                 <li>|</li>
-                <li>Skype: socialpromoters</li>
+                <li><span class="textcolor1">Skype:</span> socialpromoters</li>
                 <li>|</li>
-                <li>Email: info@social-promoters.com</li>
+                <li><span class="textcolor1">Email:</span> info@social-promoters.com</li>
             </ul>
         </nav>
         <nav>
-            <ul>
+            <ul class="textcolor2 text_style_Tahoma_1">
                 <li><a href="">Testimonials</a></li>
                 <li>|</li>
                 <li><a href="">About us</a></li>
@@ -28,7 +28,7 @@
             </ul>
         </nav>
     </div>
-    <div align="right" class="footer-right-menu">
+    <div align="right" class="right-menu">
         <a  href="/"><img src="images/footer-logo.png" class="footer-logo" alt="Footer logo"></a>
     </div>
 </footer>

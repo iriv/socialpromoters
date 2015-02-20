@@ -1,0 +1,58 @@
+.figure1,.figure2{
+    background: url(../images/figure1.png) no-repeat;
+    width: 178px;
+    height: 178px;
+}
+.figure1 {
+    background-position: -187px 0px;
+}
+
+.figure3,.figure4 {
+    background: url(../images/figure2.png) no-repeat;
+
+    position: relative;
+}
+
+
+.figure3 {
+    height: 165px;
+    left: -10px;
+    top: 143px;
+    width: 210px;
+}
+
+.figure4 {
+    background-position: -212px 0;
+    height: 166px;
+    left: 915px;
+    top: -25px;
+    width: 166px;
+}
+
+.icon-text {
+    width: 50%;
+}
+
+.icon-text div{
+    /*float: left;*/
+    display: table-cell;
+
+    vertical-align: top;
+}
+
+.icon-text div:last-child{
+    padding-left: 20px;
+}
+
+.text-cloud {
+    width: 420px;
+    height: 132px;
+    background: url("../images/text-cloud.png") no-repeat;
+    vertical-align: middle;
+    padding:20px;
+    /*border: 1px solid #000;*/
+}
+
+.text-cloud img{
+    margin-top: 110px;
+}

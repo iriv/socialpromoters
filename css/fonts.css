@@ -1,0 +1,80 @@
+.text_style_CuprumFFU_0 {
+    font-family: CuprumFFU;
+    font-size: 30px;
+    color: #384047;
+}
+
+.text_style_CuprumFFU_1 {
+    font-family: CuprumFFU;
+    font-size: 36px;
+    color: #1c6ea6;
+}
+
+.text_style_CuprumFFU_2 {
+    font-family: CuprumFFU;
+    font-size: 22px;
+    color: #1c6ea6;
+}
+
+.text_style_Myriad_0 {
+    font-family: "Myriad Pro Regular";
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.text_style_Myriad_1 {
+    font-family: "Myriad Pro Regular";
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.text_style_Myriad_2 {
+    font-family: "Myriad Pro Regular";
+    font-size: 24px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.text_style_Gotham_0 {
+    font-family: "Gotham Pro Black";
+    font-size: 13px;
+
+}
+
+.text_style_Tahoma_0 {
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.text_style_Tahoma_1 {
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 10px;
+    color: #fff;
+}
+
+.text_style_Days_0 {
+    font-family: Days;
+    font-size: 35px;
+    color: #fff;
+}
+
+
+.text_style_Sans_0 {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    color: #94a3a8;
+}
+
+.text_style_Georgia_0 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #94a3a8;
+}
+
