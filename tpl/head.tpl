@@ -18,10 +18,14 @@
 </head>
 <body>
 <div id="wrapper">
-
     <header class="baseblock">
         <div class="in">
-            <div></div>
+            <div class="system-points">
+                <div>Live Sport</div>
+                <div>FAQ</div>
+                <br/><br/>
+                <img src="images/lang.png" class="lang" alt="lang">
+            </div>
             <div>
                 <nav class="text_style_Myriad_1">
                     <ul>
@@ -31,9 +35,17 @@
                         <li><a href="">Contact us</a></li>
                     </ul>
                 </nav>
-                <a  href="/"><img src="images/logo.png" class="logo" alt="logo"></a>
+                <a href="">
+                    <img src="images/logo.png" class="logo" alt="logo">
+                </a>
             </div>
-            <div></div>
+            <div>
+                <div class="statistic text_style_Myriad_1">
+                    <div>Welcome, <span class="textcolor1">Neo</span></div>
+                    <div class="statistic-balance">Your balance: <span class="textcolor1">1000000$</span></div>
+                    <button class="text_style_Myriad_1">Dashboards | Tickets | Logout</button>
+                </div>
+            </div>
             <nav>
                 <ul class="nav-icons">
                     <li class="nav-icons-1"></li>
@@ -49,10 +61,14 @@
                     <li class="nav-icons-11"></li>
                 </ul>
             </nav>
+
         </div>
+
+
         <img src="images/marker.png" alt="" id="marker"/>
-        <!--<div class="figure3"></div>
-        <div class="figure4"></div>-->
+
+        <div class="figure3"></div>
+        <div class="figure4"></div>
     </header>
     <nav class="baseblock text_style_Gotham_0">
         <ul class="top-menu">

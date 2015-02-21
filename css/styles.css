@@ -25,6 +25,7 @@ body{
     text-decoration: underline;
 }
 
+
 header {
 
 	background:url(../images/header.png) no-repeat;
@@ -67,10 +68,11 @@ header .in{
     text-align: center;
 }
 
-header .in div{
+header .in>div{
     display: inline-block;
     max-width: 100%;
     text-align: center;
+    vertical-align: top;
 }
 
 .logo {
@@ -214,3 +216,83 @@ footer .pay li.pay-link3 a{
     overflow:hidden;
 }
 
+
+header .in>div{
+    border: 0px solid;
+    width: 30%;
+}
+
+header .in div.statistic {
+    background: url(../images/user-info-block.png) no-repeat;
+    width: 261px;
+    height: 155px;
+    border: 0px solid;
+    float: right;
+    /*padding: 10px;*/
+    border: 0px solid;
+    text-align: center;
+    padding-top: 35px;
+    color: #fff;
+}
+
+
+
+header .in div.statistic div {
+    border: 0px solid;
+    display: block;
+    width: 70%;
+    height: 18px;
+    background: url(../images/statistic-icons.png) no-repeat;
+    text-align: left;
+    padding-left: 30px;
+
+    margin-left: 25px;
+
+    margin-bottom: 10px;
+}
+
+
+
+header .in div.statistic div.statistic-balance{
+    background-position: 0px -17px;
+    height: 20px;
+}
+
+header .in div.statistic button {
+    width: 214px;
+    height: 39px;
+    background: url(../images/but1.png) no-repeat;
+    border: none;
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+header .in .system-points{
+    margin-top: 5px;
+    text-align: left;
+}
+
+header .in .system-points img{
+    cursor: pointer;
+}
+
+.system-points div{
+    display: inline-block;
+    background: url(../images/system-icons.png) no-repeat;
+    padding:0px 50px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.system-points div:last-child{
+    background-position: 0px -30px;
+}
+
+body {
+    color: #fff;
+}

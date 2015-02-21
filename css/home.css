@@ -17,7 +17,7 @@
 .figure3 {
     height: 165px;
     left: -10px;
-    top: 143px;
+    top: 585px;
     width: 210px;
 }
 
@@ -25,7 +25,7 @@
     background-position: -212px 0;
     height: 166px;
     left: 915px;
-    top: -25px;
+    top: 420px;
     width: 166px;
 }
 
@@ -55,4 +55,161 @@
 
 .text-cloud img{
     margin-top: 110px;
+}
+
+
+#details > div{
+    /*width: 24%;*/
+    border: 0px solid;
+    display: inline-block;
+    color: #fff;
+
+}
+
+#details hr {
+    border: none;
+    background: url(../images/rasdelitel.png) repeat-x;
+    margin: 20px 0px;
+}
+
+#details button {
+    background: url(../images/but.png) no-repeat;
+    width: 212px;
+    height: 58px;
+    border: none;
+    cursor: pointer;
+    font-family: "Myriad Pro Regular";
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+}
+
+#details > div .details-header{
+    background-image: url(../images/details.png);
+    background-repeat: no-repeat;
+    border: 0px solid;
+    text-align: left;
+}
+
+#details > div .details-footer{
+    background-image: url(../images/details-bottom-border1.png);
+    height: 10px;
+    background-repeat: no-repeat;
+    background-position: 0px -26px;
+    border: 0px solid;
+    text-align: left;
+}
+
+#details > div .details-content{
+    padding: 20px 0px;
+}
+
+#details > div .details-content{
+    background-image: url(../images/details-block-big-bg.png);
+    background-repeat: repeat-y;
+}
+
+#yt-block div.details-footer, #inst-block div.details-footer{
+    background-position: -3px -63px;
+}
+
+#yt-block div.details-content, #inst-block div.details-content{
+    background-image: url(../images/details-block-mini-bg.png);
+    background-repeat: repeat-y;
+}
+
+.details-header span{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.details-but{
+    margin-top: 20px;
+    background: url(../images/details-buts.png) no-repeat;
+    height: 24px;
+    border:0px solid;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+#yt-block .details-but{
+    background-position: 2px 0px;
+}
+
+#fb-block .details-but{
+  background-position: 2px -65px;
+}
+
+#tw-block .details-but{
+    background-position: 2px -101px;
+}
+
+#inst-block .details-but{
+    background-position: 2px -34px;
+}
+
+
+#yt-block .details-header{
+    width:262px;
+    height: 92px;
+    background-position: -13px -293px ;
+}
+
+#inst-block .details-header{
+    width: 262px;
+    height: 92px;
+    background-position: -13px -202px ;
+}
+
+#tw-block .details-header {
+    background-position: -8px -102px;
+    height: 96px;
+    width: 273px;
+}
+
+#fb-block .details-header {
+    background-position: -8px -1px;
+    height: 96px;
+    width: 273px;
+}
+
+
+.details-header span:first-child{
+    font-family: "Myriad Pro Regular";
+    font-size: 36px;
+    font-weight: inherit;
+}
+
+.details-header span:last-child{
+    font-family: "Myriad Pro Regular";
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.details-content span {
+    font-family: "Myriad Pro Regular";
+    font-size: 36px;
+    color: #494a4f;
+}
+
+.details-content ul{
+    font-family: "Myriad Pro Regular";
+    font-size: 18px;
+    color: #a7a7a7;
+    list-style: none;
+    text-align: left;
+    margin-left: 60px;
+    list-style-image: url(../images/bird.png);
+}
+
+.details-but {
+    font-family: "Gotham Pro Black";
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+
+.bestmes div {
+    display: inline-block;
 }
