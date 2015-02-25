@@ -1,16 +1,17 @@
 body{
 	margin: 0;
 	background-color: #ccc;
+    color: #fff;
 }
 
 #wrapper {
-    max-width: 1250px;
+    /*max-width: 1250px;*/
     margin: auto;
 
 }
 
 .baseblock {
-    padding: 0px 70px;
+    padding: 0px 15%;
 }
 
 .top-menu {
@@ -29,6 +30,7 @@ body{
 header {
 
 	background:url(../images/header.png) no-repeat;
+    background-size: cover;
     /*padding: 20px 0;*/
     height: 346px;
 }
@@ -81,7 +83,7 @@ header .in>div{
 
 header .nav-icons li{
     width: 62px;
-    height: 80px;
+    height: 83px;
     /*border: 1px solid #000;*/
     background: url(../images/menuicons.png) no-repeat;
     cursor: pointer;
@@ -137,7 +139,7 @@ header .nav-icons li.nav-icons-11{
 
 #marker {
     position: relative;
-    top:10px;
+    top:3px;
     left: 54px;
 }
 
@@ -282,17 +284,15 @@ header .in .system-points img{
 
 .system-points div{
     display: inline-block;
-    background: url(../images/system-icons.png) no-repeat;
+    background-image:  url(../images/system-icons.png);
+    background-repeat: no-repeat;
     padding:0px 50px;
     height: 30px;
     line-height: 30px;
     cursor: pointer;
 }
 
-.system-points div:last-child{
+.system-points div+div{
     background-position: 0px -30px;
 }
 
-body {
-    color: #fff;
-}

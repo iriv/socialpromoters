@@ -25,7 +25,7 @@
     <header class="baseblock">
         <div class="in">
             <div class="system-points">
-                <div>Live Sport</div>
+                <div>Live support</div>
                 <div>FAQ</div>
                 <br/><br/>
                 <img src="images/lang.png" class="lang" alt="lang">
