@@ -22,12 +22,6 @@ $view->set('about_text9',"I like this service very much. easy customization and 
 
 
 
-
-
-
-
-
-
 $view->display('head.tpl');
 
 

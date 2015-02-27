@@ -15,7 +15,7 @@ body{
 }
 
 .top-menu {
-    margin-left: 40px;
+    margin-left: 150px;
 }
 
 .top-menu li.active{
@@ -139,8 +139,8 @@ header .nav-icons li.nav-icons-11{
 
 #marker {
     position: relative;
-    top:3px;
-    left: 54px;
+    top:6px;
+    left: 170px;
 }
 
 
