@@ -24,7 +24,7 @@
 <div id="wrapper">
     <header class="baseblock">
         <div class="in">
-            <div class="system-points">
+            <div class="system-points text_style_Myriad_1">
                 <div>Live support</div>
                 <div>FAQ</div>
                 <br/><br/>
@@ -44,11 +44,29 @@
                 </a>
             </div>
             <div>
-                <div class="statistic text_style_Myriad_1">
+                <!--<div class="statistic text_style_Myriad_1">
                     <div>Welcome, <span class="textcolor1">Neo</span></div>
                     <div class="statistic-balance">Your balance: <span class="textcolor1">1000000$</span></div>
                     <button class="text_style_Myriad_1">Dashboards | Tickets | Logout</button>
+                </div>-->
+
+                <div class="login text_style_Myriad_1" align="right">
+                    <form action="">
+                        <input type="text" placeholder="Login"/>
+                        <input type="password" placeholder="Password"/>
+
+
+                        <div>
+                            <a href=""> Forgot password</a> <br/>
+                            <a href="">Registration</a>
+                        </div>
+                        <div>
+                            <input type="submit" value="Sign In">
+                        </div>
+
+                    </form>
                 </div>
+
             </div>
             <nav>
                 <ul class="nav-icons">

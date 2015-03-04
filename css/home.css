@@ -16,16 +16,16 @@
 
 .figure3 {
     height: 165px;
-    left: 5%;
-    top: 585px;
+    /*top: 170%;*/
+    top: 560px;
     width: 210px;
 }
 
 .figure4 {
-    background-position: -212px 0;
+    background-position: -214px 0;
     height: 166px;
-    left: 80%;
-    top: 420px;
+    left: 82%;
+    top: 395px;
     width: 166px;
 }
 
@@ -36,13 +36,10 @@
 .icon-text div{
     /*float: left;*/
     display: table-cell;
-
     vertical-align: top;
+    padding-left: 7px;
 }
 
-.icon-text div:last-child{
-    padding-left: 20px;
-}
 
 .text-cloud {
     width: 420px;
@@ -51,10 +48,28 @@
     vertical-align: middle;
     padding:20px;
     /*border: 1px solid #000;*/
+    text-align: left;
+    margin-bottom: 50px;
 }
 
-.text-cloud img{
-    margin-top: 110px;
+.text-cloud div.text-cloud-comment {
+    height: 80px;
+}
+
+.text-cloud div.text-cloud-avatar {
+    border: 0px solid;
+    margin-top: 90px;
+    display: inline-flex;
+}
+
+
+.text-cloud div.text-cloud-avatar img{
+    margin-right: 20px;
+}
+
+
+.text-cloud-avatar div{
+    padding-top: 40px;
 }
 
 
@@ -63,6 +78,7 @@
     border: 0px solid;
     display: inline-block;
     color: #fff;
+    margin-left: -9px;
 
 }
 

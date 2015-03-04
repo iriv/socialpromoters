@@ -4,6 +4,11 @@ body{
     color: #fff;
 }
 
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 #wrapper {
     /*max-width: 1250px;*/
     margin: auto;
@@ -11,11 +16,14 @@ body{
 }
 
 .baseblock {
-    padding: 0px 15%;
+    padding: 0px 385px;
+    /*padding: 0px 20%;*/
+    /*width: 1200px;*/
+    min-width: 1145px;
 }
 
 .top-menu {
-    margin-left: 150px;
+    margin-left: 55px;
 }
 
 .top-menu li.active{
@@ -68,6 +76,7 @@ nav li {
 header .in{
     /*border:1px solid black;*/
     text-align: center;
+    min-width: 1145px;
 }
 
 header .in>div{
@@ -139,8 +148,8 @@ header .nav-icons li.nav-icons-11{
 
 #marker {
     position: relative;
-    top:6px;
-    left: 170px;
+    top:7px;
+    left: 67px;
 }
 
 
@@ -223,6 +232,77 @@ header .in>div{
     border: 0px solid;
     width: 30%;
 }
+
+
+
+
+header .in div.login input {
+
+    background: url(../images/form-login.png) no-repeat;
+    border: none;
+    width: 175px;
+    height: 35px;
+    margin-bottom: 7px;
+    color: #7b8b9a;
+    font-size: 14px;
+
+
+
+    /*padding: 0px 10px;*/
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+
+}
+
+header .in div.login input[type="password"],header .in div.login input[type="text"] {
+    padding-left: 10px;
+    padding-right: 35px;
+
+}
+
+header .in div.login input:last-child{
+    margin-bottom:0px;
+    margin-left: 20px;
+}
+
+header .in div.login form div{
+    display: inline-table;
+    border: 0px solid;
+    vertical-align: middle;
+    text-align: right;
+
+}
+
+header .in div.login form div a {
+    color: #a3a3a3;
+}
+
+
+header .in div.login {
+    background: url(../images/user-info-block.png) no-repeat;
+    width: 261px;
+    height: 155px;
+    border: 0px solid;
+    float: right;
+    /*padding: 10px;*/
+    border: 0px solid;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+header .in div.login input[type="password"]{
+    background-position: 0px -47px;
+}
+
+header .in div.login input[type="submit"]{
+    background: url(../images/form-login-button.png);
+    width: 91px;
+    height: 37px;
+    color: #fff;
+    font-family: 'MyriadPro-Regular', 'PT Sans', sans-serif;
+}
+
 
 header .in div.statistic {
     background: url(../images/user-info-block.png) no-repeat;

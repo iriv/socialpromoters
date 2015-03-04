@@ -17,7 +17,7 @@ $view->set('about_text7',"2 900 000+");
 $view->set('about_text77',"orders completed");
 $view->set('about_text777',"The more views and likes you have, the more credibility your business or craft gains. When people trust your videos they tend to listen, follow and subscribe. ");
 $view->set('about_text8',"Startup is really a great service to get strarted with. With its awesome features and easy customization with unbounce. This is great products. Very recommended.");
-$view->set('about_text9',"I like this service very much. easy customization and perfect support. This is the finest startup work I’ve ever seen. Its minimal, Flat and responsive too. I’m really happy with their service.");
+$view->set('about_text9',"I like this service very much. easy customization and perfect support. This is the finest startup work I’ve ever seen. Its minimal, Flat and responsive too. <br> I’m really happy with their service.");
 
 
 

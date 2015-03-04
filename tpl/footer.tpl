@@ -29,7 +29,9 @@
         </nav>
     </div>
     <div align="right" class="right-menu">
-        <a  href="/"><img src="images/footer-logo.png" class="footer-logo" alt="Footer logo"></a>
+        <a href="">
+            <img src="images/footer-logo.png" class="footer-logo" alt="Footer logo">
+        </a>
     </div>
 </footer>
 </div>

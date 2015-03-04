@@ -84,16 +84,36 @@
 
     <div class="left-menu icon-text" align="right">
         <div class="text-cloud text_style_Georgia_0" style="padding-right:50px;">
-            <?php echo $this->about_text8;?>
-            <img align="left" src="images/avatars/putin.png" alt=""/>
+            <div class="text-cloud-comment">
+                <?php echo $this->about_text8;?>
+            </div>
+            <div class="text-cloud-avatar">
+                <img align="left" src="images/avatars/putin.png" alt=""/>
+                <div>
+                    <span class="text_style_Myriad_3">
+                        Vladimir Putin
+                    </span><br>
+                    <span class="text_style_Myriad_4">
+                        President of Russian Federation
+                    </span>
+                </div>
+            </div>
+
         </div>
     </div>
     <div class="right-menu icon-text">
         <div class="text-cloud text_style_Georgia_0">
-            <?php echo $this->about_text9;?>
-            <img align="left" src="images/avatars/barak.png" alt=""/>
+            <div class="text-cloud-comment">
+                <?php echo $this->about_text9;?>
+            </div>
+            <div class="text-cloud-avatar">
+                <img align="left" src="images/avatars/barak.png" alt=""/>
+                <div>
+                    <span class="text_style_Myriad_3">Barack Obama</span><br>
+                    <span class="text_style_Myriad_4">President of United State of America</span>
+                </div>
+            </div>
         </div>
-
     </div>
 </div>
 

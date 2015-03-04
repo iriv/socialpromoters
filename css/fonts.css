@@ -39,6 +39,19 @@
     color: #fff;
 }
 
+.text_style_Myriad_3 {
+    font-family: "Myriad Pro Regular";
+    font-size: 18px;
+    font-style: normal;
+    color: #000;
+}
+
+.text_style_Myriad_4 {
+    font-family: "Myriad Pro Regular";
+    font-size: 14px;
+    font-style: normal;
+}
+
 .text_style_Gotham_0 {
     font-family: "Gotham Pro Black";
     font-size: 13px;
