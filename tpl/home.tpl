@@ -127,22 +127,22 @@
 
 <div class="small-block baseblock color5">
 
-    <div class="left-menu icon-text">
-        <div class="figure1"></div>
-        <div align="left">
-            <span class="text_style_Days_0"><?php echo $this->about_text6; ?></span><br/>
-            <span class="text_style_Myriad_2"><?php echo $this->about_text66; ?></span><br/>
-            <span class="text_style_Tahoma_0"><?php echo $this->about_text666; ?></span><br/>
+        <div class="left-menu icon-text" align="right">
+            <div class="figure1"></div>
+            <div class="statinfo">
+                <span class="text_style_Days_0"><?php echo $this->about_text6; ?></span><br/>
+                <span class="text_style_Myriad_2"><?php echo $this->about_text66; ?></span><br/>
+                <span class="text_style_Tahoma_0"><?php echo $this->about_text666; ?></span><br/>
+            </div>
         </div>
-    </div>
-    <div class="right-menu icon-text">
-        <div class="figure2"></div>
-        <div align="left">
-            <span class="text_style_Days_0"><?php echo $this->about_text7; ?></span><br/>
-            <span class="text_style_Myriad_2"><?php echo $this->about_text77; ?></span><br/>
-            <span class="text_style_Tahoma_0"><?php echo $this->about_text777; ?></span><br/>
+        <div class="right-menu icon-text">
+            <div class="figure2"></div>
+            <div class="statinfo">
+                <span class="text_style_Days_0"><?php echo $this->about_text7; ?></span><br/>
+                <span class="text_style_Myriad_2"><?php echo $this->about_text77; ?></span><br/>
+                <span class="text_style_Tahoma_0"><?php echo $this->about_text777; ?></span><br/>
+            </div>
         </div>
-    </div>
 </div>
 
 <link rel="stylesheet" href="css/home.css"/>

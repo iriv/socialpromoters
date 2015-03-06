@@ -1,4 +1,7 @@
 <footer id="footer-block" class="baseblock">
+
+    <div class="top-menu-block">
+
     <div align="left" class="left-menu">
         <nav>
             <ul class="text_style_Tahoma_0">
@@ -33,6 +36,9 @@
             <img src="images/footer-logo.png" class="footer-logo" alt="Footer logo">
         </a>
     </div>
+
+    </div>
+
 </footer>
 </div>
 </body>

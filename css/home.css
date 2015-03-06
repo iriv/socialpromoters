@@ -10,22 +10,19 @@
 .figure3,.figure4 {
     background: url(../images/figure2.png) no-repeat;
 
-    position: relative;
+    position: absolute;
 }
 
 
 .figure3 {
     height: 165px;
     /*top: 170%;*/
-    top: 560px;
     width: 210px;
 }
 
 .figure4 {
     background-position: -214px 0;
     height: 166px;
-    left: 82%;
-    top: 395px;
     width: 166px;
 }
 
@@ -228,4 +225,10 @@
 
 .bestmes div {
     display: inline-block;
+}
+
+
+.statinfo {
+    width: 300px;
+    text-align: left;
 }

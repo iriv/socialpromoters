@@ -21,6 +21,9 @@
     <script src="js/main.js"></script>
 </head>
 <body>
+
+<div class="figure3"></div>
+<div class="figure4"></div>
 <div id="wrapper">
     <header class="baseblock">
         <div class="in">
@@ -32,12 +35,12 @@
             </div>
             <div>
                 <nav class="text_style_Myriad_1">
-                    <ul>
-                        <li class="active">Home</a></li>
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Express order</a></li>
-                        <li><a href="">Contact us</a></li>
-                    </ul>
+                        <ul>
+                            <li class="active">Home</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Express order</a></li>
+                            <li><a href="">Contact us</a></li>
+                        </ul>
                 </nav>
                 <a href="">
                     <img src="images/logo.png" class="logo" alt="logo">
@@ -88,18 +91,17 @@
 
 
         <img src="images/marker.png" alt="" id="marker"/>
-
-        <div class="figure3"></div>
-        <div class="figure4"></div>
     </header>
     <nav class="baseblock text_style_Gotham_0">
-        <ul class="top-menu">
-            <li><a href="">View</a></li>
-            <li class="active">Like</li>
-            <li><a href="">Subscriber</a></li>
-            <li><a href="">Dislike</a></li>
-            <li><a href="">Reshare</a></li>
-        </ul>
+        <div class="top-menu-block" align="left">
+            <ul class="top-menu">
+                <li><a href="">View</a></li>
+                <li class="active">Like</li>
+                <li><a href="">Subscriber</a></li>
+                <li><a href="">Dislike</a></li>
+                <li><a href="">Reshare</a></li>
+            </ul>
+        </div>
     </nav>
 
 

@@ -16,14 +16,22 @@ a {
 }
 
 .baseblock {
-    padding: 0px 385px;
+    /*padding: 0px 385px;*/
     /*padding: 0px 20%;*/
     /*width: 1200px;*/
-    min-width: 1145px;
+    min-width: 1135px;
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
 }
 
+.top-menu-block {
+    width:1030px;
+}
+
+
 .top-menu {
-    margin-left: 55px;
+    /*margin-left: 55px;*/
 }
 
 .top-menu li.active{
@@ -36,7 +44,6 @@ a {
 
 
 header {
-
 	background:url(../images/header.png) no-repeat;
     background-size: cover;
     /*padding: 20px 0;*/
@@ -76,7 +83,6 @@ nav li {
 header .in{
     /*border:1px solid black;*/
     text-align: center;
-    min-width: 1145px;
 }
 
 header .in>div{
@@ -149,7 +155,7 @@ header .nav-icons li.nav-icons-11{
 #marker {
     position: relative;
     top:7px;
-    left: 67px;
+    left: -492.5px;
 }
 
 
@@ -212,6 +218,8 @@ footer .pay li.pay-link3 a{
 
 .big-block,.small-block{
     text-align: center;
+    /*text-align: -moz-center;*/
+    /*text-align: -webkit-center;*/
 }
 
 
@@ -230,7 +238,7 @@ footer .pay li.pay-link3 a{
 
 header .in>div{
     border: 0px solid;
-    width: 30%;
+    width: 350px;
 }
 
 
